@@ -15,7 +15,6 @@
 		83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */; };
 		83073E8823F3187C00E37B22 /* The_Litter_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */; };
 		83073E9323F3187C00E37B22 /* The_Litter_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */; };
-		83073EA123F31A4100E37B22 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 83073EA023F31A4100E37B22 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +49,6 @@
 		83073E8E23F3187C00E37B22 /* The Litter BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Litter BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Litter_BoxUITests.swift; sourceTree = "<group>"; };
 		83073E9423F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83073EA023F31A4100E37B22 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +106,6 @@
 				83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */,
 				83073E7E23F3187C00E37B22 /* Info.plist */,
 				83073E7823F3187C00E37B22 /* Preview Content */,
-				83073EA023F31A4100E37B22 /* Podfile */,
 			);
 			path = "The Litter Box";
 			sourceTree = "<group>";
@@ -245,7 +242,6 @@
 			files = (
 				83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */,
 				83073E7A23F3187C00E37B22 /* Preview Assets.xcassets in Resources */,
-				83073EA123F31A4100E37B22 /* Podfile in Resources */,
 				83073E7723F3187C00E37B22 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
