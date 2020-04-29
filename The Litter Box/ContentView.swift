@@ -10,17 +10,19 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    var location: Location
     var body: some View {
-        NavigationView {
-            MapView()
-            .navigationBarTitle(Text("Map View"))
+        VStack {
+            NavigationView {
+                MapView()
+                    .navigationBarTitle("The Sand-Box", displayMode: .inline)
+            }
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                Text("Add to Map")
+                    .font(.subheadline)
+                    .fontWeight(.bold)
+            }
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
     }
 }
 
@@ -30,42 +32,22 @@ struct MapView: UIViewRepresentable {
     }
     
     func updateUIView(_ uiView: MKMapView, context: UIViewRepresentableContext<MapView>) {
+        
         // Start Frame Location
         let startLocation = CLLocationCoordinate2D(latitude: 33.44492917135115,
             longitude: -86.81618575369598)
-        
-        // Start Location Annotation
-        let startAnnotation = MKPointAnnotation()
-        startAnnotation.coordinate = startLocation
-        startAnnotation.title = "Hickory Knoll"
-        startAnnotation.subtitle = "Start Location"
-        uiView.addAnnotation(startAnnotation)
         
         // Frame Location
         let span = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
         let region = MKCoordinateRegion(center: startLocation, span: span)
         uiView.setRegion(region, animated: true)
         
-        // Pin Location 1
-        let location1 = CLLocationCoordinate2D(latitude: 33.4319484,
-            longitude: -86.8155857)
-        
-        // Location 1 Annotation
-        let annotation1 = MKPointAnnotation()
-        annotation1.coordinate = location1
-        annotation1.title = "Woodmere Creek"
-        annotation1.subtitle = "779 Woodmere Creek Drive"
-        uiView.addAnnotation(annotation1)
-        
-        // Pin Location 2
-        let location2 = CLLocationCoordinate2D(latitude: 33.4648253,
-            longitude: -86.7916904)
-        
-        // Location 2 Annotation
-        let annotation2 = MKPointAnnotation()
-        annotation2.coordinate = location2
-        annotation2.title = "Samford University"
-        annotation2.subtitle = "800 Lakeshore Drive"
-        uiView.addAnnotation(annotation2)
+        for location in locationData {
+            let annotation = MKPointAnnotation()
+            annotation.coordinate = location.locationCoordinate
+            annotation.title = location.gameType
+            annotation.subtitle = location.locationName
+            uiView.addAnnotation(annotation)
+        }
     }
 }

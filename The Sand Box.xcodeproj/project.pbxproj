@@ -15,6 +15,9 @@
 		83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */; };
 		83073E8823F3187C00E37B22 /* The_Litter_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */; };
 		83073E9323F3187C00E37B22 /* The_Litter_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */; };
+		8396D20024592D310081F6AC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396D1FF24592D310081F6AC /* Location.swift */; };
+		8396D20224592D690081F6AC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396D20124592D690081F6AC /* Data.swift */; };
+		8396D20424592D810081F6AC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8396D20324592D810081F6AC /* data.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		83073E6D23F3187900E37B22 /* The Litter Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Litter Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83073E6D23F3187900E37B22 /* The Sand Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Sand Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83073E7023F3187900E37B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83073E7223F3187900E37B22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		83073E7423F3187900E37B22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,12 +46,15 @@
 		83073E7923F3187C00E37B22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		83073E7C23F3187C00E37B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83073E7E23F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83073E8323F3187C00E37B22 /* The Litter BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Litter BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sand BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Litter_BoxTests.swift; sourceTree = "<group>"; };
 		83073E8923F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83073E8E23F3187C00E37B22 /* The Litter BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Litter BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sand BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Litter_BoxUITests.swift; sourceTree = "<group>"; };
 		83073E9423F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8396D1FF24592D310081F6AC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8396D20124592D690081F6AC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8396D20324592D810081F6AC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../../Desktop/data.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +95,9 @@
 		83073E6E23F3187900E37B22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83073E6D23F3187900E37B22 /* The Litter Box.app */,
-				83073E8323F3187C00E37B22 /* The Litter BoxTests.xctest */,
-				83073E8E23F3187C00E37B22 /* The Litter BoxUITests.xctest */,
+				83073E6D23F3187900E37B22 /* The Sand Box.app */,
+				83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */,
+				83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,9 +108,12 @@
 				83073E7023F3187900E37B22 /* AppDelegate.swift */,
 				83073E7223F3187900E37B22 /* SceneDelegate.swift */,
 				83073E7423F3187900E37B22 /* ContentView.swift */,
+				8396D1FF24592D310081F6AC /* Location.swift */,
+				8396D20124592D690081F6AC /* Data.swift */,
 				83073E7623F3187C00E37B22 /* Assets.xcassets */,
 				83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */,
 				83073E7E23F3187C00E37B22 /* Info.plist */,
+				8396D20324592D810081F6AC /* data.json */,
 				83073E7823F3187C00E37B22 /* Preview Content */,
 			);
 			path = "The Litter Box";
@@ -139,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83073E6C23F3187900E37B22 /* The Litter Box */ = {
+		83073E6C23F3187900E37B22 /* The Sand Box */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter Box" */;
+			buildConfigurationList = 83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand Box" */;
 			buildPhases = (
 				83073E6923F3187900E37B22 /* Sources */,
 				83073E6A23F3187900E37B22 /* Frameworks */,
@@ -151,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "The Litter Box";
+			name = "The Sand Box";
 			productName = "The Litter Box";
-			productReference = 83073E6D23F3187900E37B22 /* The Litter Box.app */;
+			productReference = 83073E6D23F3187900E37B22 /* The Sand Box.app */;
 			productType = "com.apple.product-type.application";
 		};
-		83073E8223F3187C00E37B22 /* The Litter BoxTests */ = {
+		83073E8223F3187C00E37B22 /* The Sand BoxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter BoxTests" */;
+			buildConfigurationList = 83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxTests" */;
 			buildPhases = (
 				83073E7F23F3187C00E37B22 /* Sources */,
 				83073E8023F3187C00E37B22 /* Frameworks */,
@@ -169,14 +178,14 @@
 			dependencies = (
 				83073E8523F3187C00E37B22 /* PBXTargetDependency */,
 			);
-			name = "The Litter BoxTests";
+			name = "The Sand BoxTests";
 			productName = "The Litter BoxTests";
-			productReference = 83073E8323F3187C00E37B22 /* The Litter BoxTests.xctest */;
+			productReference = 83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		83073E8D23F3187C00E37B22 /* The Litter BoxUITests */ = {
+		83073E8D23F3187C00E37B22 /* The Sand BoxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter BoxUITests" */;
+			buildConfigurationList = 83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxUITests" */;
 			buildPhases = (
 				83073E8A23F3187C00E37B22 /* Sources */,
 				83073E8B23F3187C00E37B22 /* Frameworks */,
@@ -187,9 +196,9 @@
 			dependencies = (
 				83073E9023F3187C00E37B22 /* PBXTargetDependency */,
 			);
-			name = "The Litter BoxUITests";
+			name = "The Sand BoxUITests";
 			productName = "The Litter BoxUITests";
-			productReference = 83073E8E23F3187C00E37B22 /* The Litter BoxUITests.xctest */;
+			productReference = 83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Litter Box" */;
+			buildConfigurationList = 83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Sand Box" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83073E6C23F3187900E37B22 /* The Litter Box */,
-				83073E8223F3187C00E37B22 /* The Litter BoxTests */,
-				83073E8D23F3187C00E37B22 /* The Litter BoxUITests */,
+				83073E6C23F3187900E37B22 /* The Sand Box */,
+				83073E8223F3187C00E37B22 /* The Sand BoxTests */,
+				83073E8D23F3187C00E37B22 /* The Sand BoxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,6 +252,7 @@
 				83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */,
 				83073E7A23F3187C00E37B22 /* Preview Assets.xcassets in Resources */,
 				83073E7723F3187C00E37B22 /* Assets.xcassets in Resources */,
+				8396D20424592D810081F6AC /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +278,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83073E7123F3187900E37B22 /* AppDelegate.swift in Sources */,
+				8396D20224592D690081F6AC /* Data.swift in Sources */,
 				83073E7323F3187900E37B22 /* SceneDelegate.swift in Sources */,
+				8396D20024592D310081F6AC /* Location.swift in Sources */,
 				83073E7523F3187900E37B22 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		83073E8523F3187C00E37B22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83073E6C23F3187900E37B22 /* The Litter Box */;
+			target = 83073E6C23F3187900E37B22 /* The Sand Box */;
 			targetProxy = 83073E8423F3187C00E37B22 /* PBXContainerItemProxy */;
 		};
 		83073E9023F3187C00E37B22 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 83073E6C23F3187900E37B22 /* The Litter Box */;
+			target = 83073E6C23F3187900E37B22 /* The Sand Box */;
 			targetProxy = 83073E8F23F3187C00E37B22 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,16 +448,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"The Litter Box/Preview Content\"";
+				DEVELOPMENT_TEAM = AN2F63DV29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "The Litter Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-Box";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Sand-Box";
+				PRODUCT_NAME = "The Sand Box";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -455,16 +468,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"The Litter Box/Preview Content\"";
+				DEVELOPMENT_TEAM = AN2F63DV29;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "The Litter Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-Box";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Sand-Box";
+				PRODUCT_NAME = "The Sand Box";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -485,7 +499,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Litter Box.app/The Litter Box";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sand Box.app/The Sand Box";
 			};
 			name = Debug;
 		};
@@ -506,7 +520,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Litter Box.app/The Litter Box";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sand Box.app/The Sand Box";
 			};
 			name = Release;
 		};
@@ -551,7 +565,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Litter Box" */ = {
+		83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Sand Box" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83073E9523F3187C00E37B22 /* Debug */,
@@ -560,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter Box" */ = {
+		83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand Box" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83073E9823F3187C00E37B22 /* Debug */,
@@ -569,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter BoxTests" */ = {
+		83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83073E9B23F3187C00E37B22 /* Debug */,
@@ -578,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Litter BoxUITests" */ = {
+		83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83073E9E23F3187C00E37B22 /* Debug */,
