@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1001,
+        "gameType": "Basketball",
+        "locationName": "Hickory Knoll",
+        "address1": "200 Hickory Knl",
+        "address2": "Unit 713",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35226",
+        "date": "05/12/20",
+        "time": "3:00 pm",
+        "longitude": -86.81618575369598,
+        "latitude": 33.44492917135115
+    },
+    {
+        "id": 1002,
+        "gameType": "Smash Bros",
+        "locationName": "Samford University",
+        "address1": "800 Lakeshore Drive",
+        "address2": "",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35229",
+        "date": "05/18/20",
+        "time": "8:00 pm",
+        "longitude": -86.7916904,
+        "latitude": 33.4648253
+    },
+    {
+        "id": 1003,
+        "gameType": "Reading Club",
+        "locationName": "Woodmere Creek",
+        "address1": "1310 Woodmere Creek Trail",
+        "address2": "",
+        "city": "Birmingham",
+        "state": "AL",
+        "zip": "35226",
+        "date": "05/14/20",
+        "time": "5:00 pm",
+        "longitude": -86.8155857,
+        "latitude": 33.4319484
+    }
+]

@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  The Litter Box
+//  The Sand Box
 //
-//  Created by Christopher Williams on 2/11/20.
+//  Created by Christopher Williams on 4/30/20.
 //  Copyright © 2020 ThunderCats. All rights reserved.
 //
 
@@ -20,7 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
         // Create the SwiftUI view that provides the window contents.
-        let contentView = ContentView(location: locationData[0])
+        let contentView = ContentView()
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

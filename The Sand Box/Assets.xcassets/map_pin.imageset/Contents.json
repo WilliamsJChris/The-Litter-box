@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "map-pin-marker-circle-512.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  The Litter Box
+//  The Sand Box
 //
-//  Created by Christopher Williams on 2/11/20.
+//  Created by Christopher Williams on 4/30/20.
 //  Copyright © 2020 ThunderCats. All rights reserved.
 //
 

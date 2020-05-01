@@ -7,74 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83073E7123F3187900E37B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E7023F3187900E37B22 /* AppDelegate.swift */; };
-		83073E7323F3187900E37B22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E7223F3187900E37B22 /* SceneDelegate.swift */; };
-		83073E7523F3187900E37B22 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E7423F3187900E37B22 /* ContentView.swift */; };
-		83073E7723F3187C00E37B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83073E7623F3187C00E37B22 /* Assets.xcassets */; };
-		83073E7A23F3187C00E37B22 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83073E7923F3187C00E37B22 /* Preview Assets.xcassets */; };
-		83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */; };
-		83073E8823F3187C00E37B22 /* The_Litter_BoxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */; };
-		83073E9323F3187C00E37B22 /* The_Litter_BoxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */; };
-		8396D20024592D310081F6AC /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396D1FF24592D310081F6AC /* Location.swift */; };
-		8396D20224592D690081F6AC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8396D20124592D690081F6AC /* Data.swift */; };
-		8396D20424592D810081F6AC /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8396D20324592D810081F6AC /* data.json */; };
-		8396D20924593CCF0081F6AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8396D20724593CCF0081F6AC /* Main.storyboard */; };
+		8372DAD1245B83C30073007E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAD0245B83C30073007E /* AppDelegate.swift */; };
+		8372DAD3245B83C30073007E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAD2245B83C30073007E /* SceneDelegate.swift */; };
+		8372DAD5245B83C30073007E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAD4245B83C30073007E /* ContentView.swift */; };
+		8372DAD7245B83C50073007E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8372DAD6245B83C50073007E /* Assets.xcassets */; };
+		8372DADA245B83C50073007E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8372DAD9245B83C50073007E /* Preview Assets.xcassets */; };
+		8372DADD245B83C50073007E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8372DADB245B83C50073007E /* LaunchScreen.storyboard */; };
+		8372DAE6245B85790073007E /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAE4245B85780073007E /* Data.swift */; };
+		8372DAE7245B85790073007E /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAE5245B85790073007E /* Location.swift */; };
+		8372DAEB245B86430073007E /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8372DAEA245B86430073007E /* data.json */; };
+		8372DAED245BAB090073007E /* MapItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8372DAEC245BAB090073007E /* MapItemRow.swift */; };
+		83DB1156245BBDE6006B4ECA /* LocationList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB1155245BBDE6006B4ECA /* LocationList.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		83073E8423F3187C00E37B22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83073E6523F3187900E37B22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83073E6C23F3187900E37B22;
-			remoteInfo = "The Litter Box";
-		};
-		83073E8F23F3187C00E37B22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83073E6523F3187900E37B22 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 83073E6C23F3187900E37B22;
-			remoteInfo = "The Litter Box";
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		83073E6D23F3187900E37B22 /* The Sand Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Sand Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83073E7023F3187900E37B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83073E7223F3187900E37B22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83073E7423F3187900E37B22 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		83073E7623F3187C00E37B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		83073E7923F3187C00E37B22 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		83073E7C23F3187C00E37B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		83073E7E23F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sand BoxTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Litter_BoxTests.swift; sourceTree = "<group>"; };
-		83073E8923F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Sand BoxUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Litter_BoxUITests.swift; sourceTree = "<group>"; };
-		83073E9423F3187C00E37B22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8396D1FF24592D310081F6AC /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		8396D20124592D690081F6AC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
-		8396D20324592D810081F6AC /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../../Desktop/data.json; sourceTree = "<group>"; };
-		8396D20824593CCF0081F6AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../Downloads/MapKit_HonoluluArt-2/final/HonoluluArt/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		8372DACD245B83C30073007E /* The Sand Box.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Sand Box.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8372DAD0245B83C30073007E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8372DAD2245B83C30073007E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8372DAD4245B83C30073007E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8372DAD6245B83C50073007E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8372DAD9245B83C50073007E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8372DADC245B83C50073007E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8372DADE245B83C50073007E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8372DAE4245B85780073007E /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		8372DAE5245B85790073007E /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		8372DAEA245B86430073007E /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		8372DAEC245BAB090073007E /* MapItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapItemRow.swift; sourceTree = "<group>"; };
+		83DB1155245BBDE6006B4ECA /* LocationList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		83073E6A23F3187900E37B22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E8023F3187C00E37B22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E8B23F3187C00E37B22 /* Frameworks */ = {
+		8372DACA245B83C30073007E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,150 +47,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		83073E6423F3187900E37B22 = {
+		8372DAC4245B83C30073007E = {
 			isa = PBXGroup;
 			children = (
-				83073E6F23F3187900E37B22 /* The Litter Box */,
-				83073E8623F3187C00E37B22 /* The Litter BoxTests */,
-				83073E9123F3187C00E37B22 /* The Litter BoxUITests */,
-				83073E6E23F3187900E37B22 /* Products */,
+				8372DACF245B83C30073007E /* The Sand Box */,
+				8372DACE245B83C30073007E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		83073E6E23F3187900E37B22 /* Products */ = {
+		8372DACE245B83C30073007E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				83073E6D23F3187900E37B22 /* The Sand Box.app */,
-				83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */,
-				83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */,
+				8372DACD245B83C30073007E /* The Sand Box.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		83073E6F23F3187900E37B22 /* The Litter Box */ = {
+		8372DACF245B83C30073007E /* The Sand Box */ = {
 			isa = PBXGroup;
 			children = (
-				83073E7023F3187900E37B22 /* AppDelegate.swift */,
-				83073E7223F3187900E37B22 /* SceneDelegate.swift */,
-				83073E7423F3187900E37B22 /* ContentView.swift */,
-				8396D20724593CCF0081F6AC /* Main.storyboard */,
-				8396D1FF24592D310081F6AC /* Location.swift */,
-				8396D20124592D690081F6AC /* Data.swift */,
-				83073E7623F3187C00E37B22 /* Assets.xcassets */,
-				83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */,
-				83073E7E23F3187C00E37B22 /* Info.plist */,
-				8396D20324592D810081F6AC /* data.json */,
-				83073E7823F3187C00E37B22 /* Preview Content */,
+				8372DAD0245B83C30073007E /* AppDelegate.swift */,
+				8372DAD2245B83C30073007E /* SceneDelegate.swift */,
+				8372DAD4245B83C30073007E /* ContentView.swift */,
+				8372DAD6245B83C50073007E /* Assets.xcassets */,
+				8372DAE4245B85780073007E /* Data.swift */,
+				8372DAE5245B85790073007E /* Location.swift */,
+				8372DAEC245BAB090073007E /* MapItemRow.swift */,
+				83DB1155245BBDE6006B4ECA /* LocationList.swift */,
+				8372DADB245B83C50073007E /* LaunchScreen.storyboard */,
+				8372DADE245B83C50073007E /* Info.plist */,
+				8372DAEA245B86430073007E /* data.json */,
+				8372DAD8245B83C50073007E /* Preview Content */,
 			);
-			path = "The Litter Box";
+			path = "The Sand Box";
 			sourceTree = "<group>";
 		};
-		83073E7823F3187C00E37B22 /* Preview Content */ = {
+		8372DAD8245B83C50073007E /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				83073E7923F3187C00E37B22 /* Preview Assets.xcassets */,
+				8372DAD9245B83C50073007E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		83073E8623F3187C00E37B22 /* The Litter BoxTests */ = {
-			isa = PBXGroup;
-			children = (
-				83073E8723F3187C00E37B22 /* The_Litter_BoxTests.swift */,
-				83073E8923F3187C00E37B22 /* Info.plist */,
-			);
-			path = "The Litter BoxTests";
-			sourceTree = "<group>";
-		};
-		83073E9123F3187C00E37B22 /* The Litter BoxUITests */ = {
-			isa = PBXGroup;
-			children = (
-				83073E9223F3187C00E37B22 /* The_Litter_BoxUITests.swift */,
-				83073E9423F3187C00E37B22 /* Info.plist */,
-			);
-			path = "The Litter BoxUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		83073E6C23F3187900E37B22 /* The Sand Box */ = {
+		8372DACC245B83C30073007E /* The Sand Box */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand Box" */;
+			buildConfigurationList = 8372DAE1245B83C50073007E /* Build configuration list for PBXNativeTarget "The Sand Box" */;
 			buildPhases = (
-				83073E6923F3187900E37B22 /* Sources */,
-				83073E6A23F3187900E37B22 /* Frameworks */,
-				83073E6B23F3187900E37B22 /* Resources */,
+				8372DAC9245B83C30073007E /* Sources */,
+				8372DACA245B83C30073007E /* Frameworks */,
+				8372DACB245B83C30073007E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "The Sand Box";
-			productName = "The Litter Box";
-			productReference = 83073E6D23F3187900E37B22 /* The Sand Box.app */;
+			productName = "The Sand Box";
+			productReference = 8372DACD245B83C30073007E /* The Sand Box.app */;
 			productType = "com.apple.product-type.application";
-		};
-		83073E8223F3187C00E37B22 /* The Sand BoxTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxTests" */;
-			buildPhases = (
-				83073E7F23F3187C00E37B22 /* Sources */,
-				83073E8023F3187C00E37B22 /* Frameworks */,
-				83073E8123F3187C00E37B22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83073E8523F3187C00E37B22 /* PBXTargetDependency */,
-			);
-			name = "The Sand BoxTests";
-			productName = "The Litter BoxTests";
-			productReference = 83073E8323F3187C00E37B22 /* The Sand BoxTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		83073E8D23F3187C00E37B22 /* The Sand BoxUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxUITests" */;
-			buildPhases = (
-				83073E8A23F3187C00E37B22 /* Sources */,
-				83073E8B23F3187C00E37B22 /* Frameworks */,
-				83073E8C23F3187C00E37B22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				83073E9023F3187C00E37B22 /* PBXTargetDependency */,
-			);
-			name = "The Sand BoxUITests";
-			productName = "The Litter BoxUITests";
-			productReference = 83073E8E23F3187C00E37B22 /* The Sand BoxUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83073E6523F3187900E37B22 /* Project object */ = {
+		8372DAC5245B83C30073007E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = ThunderCats;
 				TargetAttributes = {
-					83073E6C23F3187900E37B22 = {
-						CreatedOnToolsVersion = 11.3.1;
-					};
-					83073E8223F3187C00E37B22 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 83073E6C23F3187900E37B22;
-					};
-					83073E8D23F3187C00E37B22 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 83073E6C23F3187900E37B22;
+					8372DACC245B83C30073007E = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Sand Box" */;
+			buildConfigurationList = 8372DAC8245B83C30073007E /* Build configuration list for PBXProject "The Sand Box" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -235,112 +133,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 83073E6423F3187900E37B22;
-			productRefGroup = 83073E6E23F3187900E37B22 /* Products */;
+			mainGroup = 8372DAC4245B83C30073007E;
+			productRefGroup = 8372DACE245B83C30073007E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				83073E6C23F3187900E37B22 /* The Sand Box */,
-				83073E8223F3187C00E37B22 /* The Sand BoxTests */,
-				83073E8D23F3187C00E37B22 /* The Sand BoxUITests */,
+				8372DACC245B83C30073007E /* The Sand Box */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		83073E6B23F3187900E37B22 /* Resources */ = {
+		8372DACB245B83C30073007E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83073E7D23F3187C00E37B22 /* LaunchScreen.storyboard in Resources */,
-				8396D20924593CCF0081F6AC /* Main.storyboard in Resources */,
-				83073E7A23F3187C00E37B22 /* Preview Assets.xcassets in Resources */,
-				83073E7723F3187C00E37B22 /* Assets.xcassets in Resources */,
-				8396D20424592D810081F6AC /* data.json in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E8123F3187C00E37B22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E8C23F3187C00E37B22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8372DADD245B83C50073007E /* LaunchScreen.storyboard in Resources */,
+				8372DADA245B83C50073007E /* Preview Assets.xcassets in Resources */,
+				8372DAD7245B83C50073007E /* Assets.xcassets in Resources */,
+				8372DAEB245B86430073007E /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		83073E6923F3187900E37B22 /* Sources */ = {
+		8372DAC9245B83C30073007E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83073E7123F3187900E37B22 /* AppDelegate.swift in Sources */,
-				8396D20224592D690081F6AC /* Data.swift in Sources */,
-				83073E7323F3187900E37B22 /* SceneDelegate.swift in Sources */,
-				8396D20024592D310081F6AC /* Location.swift in Sources */,
-				83073E7523F3187900E37B22 /* ContentView.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E7F23F3187C00E37B22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83073E8823F3187C00E37B22 /* The_Litter_BoxTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83073E8A23F3187C00E37B22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				83073E9323F3187C00E37B22 /* The_Litter_BoxUITests.swift in Sources */,
+				8372DAD1245B83C30073007E /* AppDelegate.swift in Sources */,
+				8372DAD3245B83C30073007E /* SceneDelegate.swift in Sources */,
+				83DB1156245BBDE6006B4ECA /* LocationList.swift in Sources */,
+				8372DAED245BAB090073007E /* MapItemRow.swift in Sources */,
+				8372DAE7245B85790073007E /* Location.swift in Sources */,
+				8372DAD5245B83C30073007E /* ContentView.swift in Sources */,
+				8372DAE6245B85790073007E /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		83073E8523F3187C00E37B22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83073E6C23F3187900E37B22 /* The Sand Box */;
-			targetProxy = 83073E8423F3187C00E37B22 /* PBXContainerItemProxy */;
-		};
-		83073E9023F3187C00E37B22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 83073E6C23F3187900E37B22 /* The Sand Box */;
-			targetProxy = 83073E8F23F3187C00E37B22 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		83073E7B23F3187C00E37B22 /* LaunchScreen.storyboard */ = {
+		8372DADB245B83C50073007E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				83073E7C23F3187C00E37B22 /* Base */,
+				8372DADC245B83C50073007E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		8396D20724593CCF0081F6AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8396D20824593CCF0081F6AC /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		83073E9523F3187C00E37B22 /* Debug */ = {
+		8372DADF245B83C50073007E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -390,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -400,7 +246,7 @@
 			};
 			name = Debug;
 		};
-		83073E9623F3187C00E37B22 /* Release */ = {
+		8372DAE0245B83C50073007E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -444,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -454,166 +300,68 @@
 			};
 			name = Release;
 		};
-		83073E9823F3187C00E37B22 /* Debug */ = {
+		8372DAE2245B83C50073007E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"The Litter Box/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"The Sand Box/Preview Content\"";
 				DEVELOPMENT_TEAM = AN2F63DV29;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "The Litter Box/Info.plist";
+				INFOPLIST_FILE = "The Sand Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Sand-Box";
-				PRODUCT_NAME = "The Sand Box";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		83073E9923F3187C00E37B22 /* Release */ = {
+		8372DAE3245B83C50073007E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"The Litter Box/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"The Sand Box/Preview Content\"";
 				DEVELOPMENT_TEAM = AN2F63DV29;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "The Litter Box/Info.plist";
+				INFOPLIST_FILE = "The Sand Box/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Sand-Box";
-				PRODUCT_NAME = "The Sand Box";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
-		};
-		83073E9B23F3187C00E37B22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "The Litter BoxTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-BoxTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sand Box.app/The Sand Box";
-			};
-			name = Debug;
-		};
-		83073E9C23F3187C00E37B22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "The Litter BoxTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-BoxTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Sand Box.app/The Sand Box";
-			};
-			name = Release;
-		};
-		83073E9E23F3187C00E37B22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "The Litter BoxUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-BoxUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Litter Box";
-			};
-			name = Debug;
-		};
-		83073E9F23F3187C00E37B22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "The Litter BoxUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ThunderCats.The-Litter-BoxUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "The Litter Box";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		83073E6823F3187900E37B22 /* Build configuration list for PBXProject "The Sand Box" */ = {
+		8372DAC8245B83C30073007E /* Build configuration list for PBXProject "The Sand Box" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83073E9523F3187C00E37B22 /* Debug */,
-				83073E9623F3187C00E37B22 /* Release */,
+				8372DADF245B83C50073007E /* Debug */,
+				8372DAE0245B83C50073007E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83073E9723F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand Box" */ = {
+		8372DAE1245B83C50073007E /* Build configuration list for PBXNativeTarget "The Sand Box" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83073E9823F3187C00E37B22 /* Debug */,
-				83073E9923F3187C00E37B22 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83073E9A23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83073E9B23F3187C00E37B22 /* Debug */,
-				83073E9C23F3187C00E37B22 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83073E9D23F3187C00E37B22 /* Build configuration list for PBXNativeTarget "The Sand BoxUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				83073E9E23F3187C00E37B22 /* Debug */,
-				83073E9F23F3187C00E37B22 /* Release */,
+				8372DAE2245B83C50073007E /* Debug */,
+				8372DAE3245B83C50073007E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83073E6523F3187900E37B22 /* Project object */;
+	rootObject = 8372DAC5245B83C30073007E /* Project object */;
 }
